@@ -1,6 +1,11 @@
 import random
 
-r = random.randint(1, 100)
+min = input('please give a minimum value: ')
+max = input('please give a msximum value: ')
+min = int(min)
+max = int(max)
+
+r = random.randint(min, max)
 count = 0
 
 while True:
